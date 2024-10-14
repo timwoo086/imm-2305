@@ -227,10 +227,8 @@ jobs:
           tag_name: ${{env.WRT_TARGET}}_${{env.WRT_VER}}_${{env.WRT_DATE}}
           files: ./wrt/upload/*.*
           body: |
-            这是个平台固件包，内含多个设备！
-            请注意选择你需要的设备固件！
-            不要问，刷就完事了！
-
+            fork七曜仓库，自编译百里固件
+            内置dockerman，diskman，tailscale，homeproxy，mihomo，lucky，ddnsto
             全系带闭源硬件加速，别问了！
 
             源码：${{env.WRT_REPO}}
